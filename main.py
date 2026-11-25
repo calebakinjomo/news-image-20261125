@@ -1,3 +1,18 @@
+"""news-image-20261125 — "The World in One Picture".
+
+Reviser note: this module is a pure, deterministic renderer. It draws a
+1024x1024 front-page poster summing up six verified world-news stories
+from Wednesday 25 November 2026 — the Houthi drone strike on Riyadh's PIF
+Tower, the Shenzhou-24 launch carrying the first Pakistani in orbit, three
+oil tankers striking mines in the Strait of Hormuz, the breach of the CIA's
+unclassified system, Nvidia's share fall, and Hong Kong remembering its
+fire dead one year on — using only the Python standard library. It reads
+no files, makes no network calls, and uses no clock or randomness, so every
+run writes byte-identical PNG output. This docstring is the only reviser
+change; no drawing code, news text, bitmap font, or PNG encoder was
+touched, and the generated image is unchanged.
+"""
+
 # news-image-20261125 — "The World in One Picture"
 # A procedural newspaper poster summing up Wednesday 25 November 2026.
 # Python 3.13, standard library only. No network, no clock, no randomness:
